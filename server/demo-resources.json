@@ -1,0 +1,7 @@
+[
+  { "id": "demo_fire_01", "name": "Demo Fire & Rescue Unit", "type": "FIRE_RESCUE", "latitude": 11.0202, "longitude": 76.9613, "capabilities": ["FIRE", "RESCUE", "LANDSLIDE", "DEBRIS_REMOVAL"], "available": true, "status": "AVAILABLE", "contact": "DEMO_ONLY" },
+  { "id": "demo_ambulance_01", "name": "Demo Ambulance Unit", "type": "AMBULANCE", "latitude": 11.0291, "longitude": 76.9751, "capabilities": ["MEDICAL", "AMBULANCE"], "available": true, "status": "AVAILABLE", "contact": "DEMO_ONLY" },
+  { "id": "demo_police_01", "name": "Demo Police Support Unit", "type": "POLICE", "latitude": 11.0112, "longitude": 76.9472, "capabilities": ["SECURITY", "TRAFFIC", "SEARCH"], "available": true, "status": "AVAILABLE", "contact": "DEMO_ONLY" },
+  { "id": "demo_disaster_01", "name": "Demo Disaster Response Unit", "type": "DISASTER_RESPONSE", "latitude": 11.0361, "longitude": 76.9870, "capabilities": ["FLOOD", "WATER_RESCUE", "LANDSLIDE", "RESCUE"], "available": false, "status": "BUSY", "contact": "DEMO_ONLY" },
+  { "id": "demo_search_01", "name": "Demo Search & Rescue Unit", "type": "SEARCH_AND_RESCUE", "latitude": 11.0440, "longitude": 76.9421, "capabilities": ["SEARCH", "SEARCH_AND_RESCUE", "STRUCTURAL_RESCUE", "RESCUE"], "available": true, "status": "AVAILABLE", "contact": "DEMO_ONLY" }
+]

@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "RESQ 360",
+    "slug": "resq-360",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#06131F"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#06131F"
+      },
+      "package": "com.safeguard.app",
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.RECEIVE_SMS",
+        "android.permission.READ_SMS",
+        "android.permission.SEND_SMS",
+        "android.permission.CALL_PHONE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "RESQ 360 needs your location to show it in emergency alerts.",
+          "locationAlwaysPermission": "RESQ 360 needs background location access for emergency tracking."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#00C2A8",
+          "sounds": []
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b0ddfa23-d2bc-4882-8704-3b47ffa69bfc"
+      }
+    },
+    "owner": "YOUR_EXPO_USERNAME"
+  }
+}

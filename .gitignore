@@ -1,0 +1,34 @@
+# Dependencies and generated output
+node_modules/
+.expo/
+dist/
+
+# Native/build output
+android/.gradle/
+android/app/build/
+android/build/
+.gradle-workspace/
+
+# Firebase / Google services config
+google-services.json
+GoogleService-Info.plist
+
+# Local broadcast server state
+server/registered-tokens.json
+server/broadcast-alerts.json
+server/public-incidents.json
+server/evidence-vault/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Locally inspected government source assets without explicit redistribution licence
+data/coimbatore/30-critical-intersections.png
